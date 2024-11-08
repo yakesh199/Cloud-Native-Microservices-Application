@@ -1,123 +1,153 @@
-Cloud-Native Microservices Application
-AWS Version
-Overview
-The Medium version of the Cloud-Native Microservices Application is a project that demonstrates your proficiency in building a cloud-native application leveraging AWS services. This iteration focuses on integrating various AWS offerings to create a scalable and reliable backend infrastructure.
-Technologies Used
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cloud-Native Microservices Application (AWS)</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background-color: #f7f9fc;
+    }
+    h1, h2, h3 {
+      color: #005b96;
+    }
+    .container {
+      width: 85%;
+      max-width: 900px;
+      margin: 20px auto;
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    .overview, .features, .deployment {
+      margin-bottom: 20px;
+    }
+    .section-title {
+      font-size: 24px;
+      margin-bottom: 10px;
+      border-bottom: 2px solid #005b96;
+      padding-bottom: 5px;
+    }
+    .key-features ul, .technologies-used ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+    .key-features ul li, .technologies-used ul li {
+      margin: 10px 0;
+      padding-left: 20px;
+      position: relative;
+    }
+    .key-features ul li::before, .technologies-used ul li::before {
+      content: "•";
+      color: #005b96;
+      font-weight: bold;
+      position: absolute;
+      left: 0;
+    }
+    code {
+      background-color: #f3f3f3;
+      padding: 4px;
+      border-radius: 4px;
+      font-size: 14px;
+      color: #c7254e;
+    }
+  </style>
+</head>
+<body>
 
-Cloud Infrastructure: Amazon Web Services (AWS), including services such as EC2, Lambda, S3, etc.
-Programming Language: TypeScript
-Backend Development: Node.js, custom AWS-specific modules (e.g., aws.ts, index.ts, pty.ts)
-Infrastructure as Code: AWS-specific configurations, potentially using services like CloudFormation or Terraform
-Package Management: npm, Yarn
+<div class="container">
+  <h1>Cloud-Native Microservices Application (AWS)</h1>
+  
+  <section class="overview">
+    <h2 class="section-title">Overview</h2>
+    <p>The <strong>Cloud-Native Microservices Application (AWS)</strong> demonstrates proficiency in building scalable, cloud-native applications using Amazon Web Services (AWS) as the underlying infrastructure.</p>
+  </section>
 
-Key Features
+  <section class="technologies-used">
+    <h2 class="section-title">Technologies Used</h2>
+    <ul>
+      <li><strong>Cloud Infrastructure:</strong> Amazon Web Services (AWS), including EC2, Lambda, S3, etc.</li>
+      <li><strong>Programming Language:</strong> TypeScript</li>
+      <li><strong>Backend Development:</strong> Node.js with custom AWS-specific modules (e.g., <code>aws.ts</code>, <code>index.ts</code>, <code>pty.ts</code>)</li>
+      <li><strong>Infrastructure as Code:</strong> AWS-specific configurations, potentially with CloudFormation or Terraform</li>
+      <li><strong>Package Management:</strong> npm, Yarn</li>
+    </ul>
+  </section>
 
-AWS Integration: The application seamlessly integrates with various AWS services to provide a robust and scalable cloud-based infrastructure. This includes leveraging compute, storage, and serverless offerings to power the backend components.
-TypeScript Codebase: The project is entirely written in TypeScript, showcasing your ability to leverage the benefits of static typing and the rich tooling ecosystem around the language.
-Custom Backend Logic: The codebase includes TypeScript files that implement custom business logic and interact with the underlying AWS services.
-Infrastructure as Code: The project demonstrates your skills in defining and managing the cloud infrastructure programmatically, using AWS-specific configuration files and tools.
+  <section class="key-features">
+    <h2 class="section-title">Key Features</h2>
+    <ul>
+      <li><strong>AWS Integration:</strong> Leverages AWS services for a robust and scalable cloud infrastructure.</li>
+      <li><strong>TypeScript Codebase:</strong> Entirely written in TypeScript, benefiting from static typing and rich tooling.</li>
+      <li><strong>Custom Backend Logic:</strong> Includes TypeScript files implementing business logic and AWS service interactions.</li>
+      <li><strong>Infrastructure as Code:</strong> Defines and manages cloud infrastructure programmatically.</li>
+    </ul>
+  </section>
 
-Deployment and Setup
-To deploy and run the Medium version of the Cloud-Native Microservices Application, you will need to:
+  <section class="deployment">
+    <h2 class="section-title">Deployment and Setup</h2>
+    <ol>
+      <li>Set up the necessary AWS resources and configurations.</li>
+      <li>Install dependencies using <code>npm</code> or <code>Yarn</code>.</li>
+      <li>Build and package the application for deployment.</li>
+      <li>Manage the lifecycle, scaling, and monitoring within the AWS ecosystem.</li>
+    </ol>
+  </section>
 
-Set up the necessary AWS resources and configurations.
-Install the required dependencies using npm or Yarn.
-Build and package the application for deployment on the AWS infrastructure.
-Manage the application's lifecycle, including scaling, monitoring, and maintenance, within the AWS ecosystem.
+  <h1>Cloud-Native Microservices Application (AWS + Kubernetes + Docker)</h1>
+  
+  <section class="overview">
+    <h2 class="section-title">Overview</h2>
+    <p>This advanced version leverages Kubernetes for deployment and scaling of a microservices-based architecture, showcasing expertise in modern, scalable cloud-native applications.</p>
+  </section>
 
-Advanced Version
-Overview
-The Advanced version of the Cloud-Native Microservices Application showcases your expertise in building modern, scalable, and highly available cloud-native applications. This iteration leverages Kubernetes, a leading container orchestration platform, to manage the deployment and scaling of the microservices-based architecture.
-Technologies Used
+  <section class="technologies-used">
+    <h2 class="section-title">Technologies Used</h2>
+    <ul>
+      <li><strong>Cloud Infrastructure:</strong> Amazon Web Services (AWS)</li>
+      <li><strong>Container Platform:</strong> Docker and Kubernetes</li>
+      <li><strong>Programming Language:</strong> TypeScript</li>
+      <li><strong>Backend Development:</strong> Node.js with custom application code</li>
+      <li><strong>Infrastructure as Code:</strong> Kubernetes YAML configurations</li>
+      <li><strong>Package Management:</strong> npm, Yarn</li>
+    </ul>
+  </section>
 
-Cloud Infrastructure: Amazon Web Services (AWS) for the underlying cloud resources
-Container Platform: Docker for containerization, Kubernetes for orchestration
-Programming Language: TypeScript
-Backend Development: Node.js, custom application code
-Infrastructure as Code: Kubernetes YAML configurations
-Package Management: npm, Yarn
+  <section class="key-features">
+    <h2 class="section-title">Key Features</h2>
+    <ul>
+      <li><strong>Microservices Architecture:</strong> Designed with separate services (e.g., <code>init-service</code>, <code>orchestrator-simple</code>, <code>runner</code>).</li>
+      <li><strong>Containerization and Kubernetes:</strong> Dockerized application deployed with Kubernetes for high availability and scalability.</li>
+      <li><strong>Infrastructure as Code:</strong> Managed with Kubernetes manifests for streamlined infrastructure configuration.</li>
+      <li><strong>TypeScript Codebase:</strong> Code written in TypeScript, benefiting from type safety.</li>
+      <li><strong>Best Practices:</strong> Follows cloud-native best practices like health checks, liveness, and readiness probes.</li>
+    </ul>
+  </section>
 
-Key Features
+  <section class="deployment">
+    <h2 class="section-title">Deployment and Setup</h2>
+    <ol>
+      <li>Set up AWS resources and a Kubernetes cluster.</li>
+      <li>Configure and apply Kubernetes manifests.</li>
+      <li>Install dependencies using <code>npm</code> or <code>Yarn</code>.</li>
+      <li>Build and deploy Docker images to the Kubernetes cluster.</li>
+      <li>Monitor and manage the application within Kubernetes.</li>
+    </ol>
+  </section>
 
-Microservices Architecture: The application is designed using a microservices approach, with separate service components for different functionalities (e.g., init-service, orchestrator-simple, runner).
-Containerization and Kubernetes: The application is packaged as Docker containers and deployed using Kubernetes, enabling scalability, high availability, and easy management of the cloud infrastructure.
-Infrastructure as Code with Kubernetes: The project utilizes YAML configuration files to define and manage the Kubernetes resources, demonstrating your skills in infrastructure as code practices.
-TypeScript Codebase: Similar to the Medium version, the Advanced version is written in TypeScript, leveraging its type safety and tooling benefits.
-Best Practices: The project follows industry-standard best practices for cloud-native development, such as using health checks, readiness and liveness probes, and other Kubernetes-specific configurations to ensure the application's reliability and maintainability.
+  <section class="comparison">
+    <h2 class="section-title">Comparison of Versions</h2>
+    <p>The two versions highlight your growth in cloud-native development:</p>
+    <ul>
+      <li><strong>AWS Only:</strong> Demonstrates integration with AWS services for scalability and cloud-based deployment.</li>
+      <li><strong>AWS + Kubernetes + Docker:</strong> Showcases expertise in containerization, Kubernetes, and cloud-native best practices.</li>
+    </ul>
+  </section>
+</div>
 
-Deployment and Setup
-To deploy and run the Advanced version of the Cloud-Native Microservices Application, you will need to:
-
-Set up the necessary AWS resources and Kubernetes cluster.
-Configure the Kubernetes manifests and apply them to the cluster.
-Install the required dependencies using npm or Yarn.
-Build and package the application Docker images.
-Deploy the containerized application to the Kubernetes cluster.
-Monitor and manage the application's lifecycle within the Kubernetes ecosystem.
-
-Comparison of Versions
-The two versions of the Cloud-Native Microservices Application showcase your growth and mastery of cloud-native development practices:
-
-Medium Version: Demonstrates your ability to leverage AWS services to build a scalable, cloud-based application. This version focuses on integrating with AWS offerings and managing the infrastructure programmatically.
-Advanced Version: Exhibits your proficiency in modern cloud-native technologies, including containerization, Kubernetes, and infrastructure as code using Kubernetes manifests. This version follows industry-standard best practices for building highly available, reliable, and maintainable microservices-based applications.Cloud-Native Microservices Application
-Medium Version
-Overview
-The Medium version of the Cloud-Native Microservices Application is a project that demonstrates your proficiency in building a cloud-native application leveraging AWS services. This iteration focuses on integrating various AWS offerings to create a scalable and reliable backend infrastructure.
-Technologies Used
-
-Cloud Infrastructure: Amazon Web Services (AWS), including services such as EC2, Lambda, S3, etc.
-Programming Language: TypeScript
-Backend Development: Node.js, custom AWS-specific modules (e.g., aws.ts, index.ts, pty.ts)
-Infrastructure as Code: AWS-specific configurations, potentially using services like CloudFormation or Terraform
-Package Management: npm, Yarn
-
-Key Features
-
-AWS Integration: The application seamlessly integrates with various AWS services to provide a robust and scalable cloud-based infrastructure. This includes leveraging compute, storage, and serverless offerings to power the backend components.
-TypeScript Codebase: The project is entirely written in TypeScript, showcasing your ability to leverage the benefits of static typing and the rich tooling ecosystem around the language.
-Custom Backend Logic: The codebase includes TypeScript files that implement custom business logic and interact with the underlying AWS services.
-Infrastructure as Code: The project demonstrates your skills in defining and managing the cloud infrastructure programmatically, using AWS-specific configuration files and tools.
-
-Deployment and Setup
-To deploy and run the Medium version of the Cloud-Native Microservices Application, you will need to:
-
-Set up the necessary AWS resources and configurations.
-Install the required dependencies using npm or Yarn.
-Build and package the application for deployment on the AWS infrastructure.
-Manage the application's lifecycle, including scaling, monitoring, and maintenance, within the AWS ecosystem.
-
-Advanced Version(AWS + Kubernetes + Docker)
-Overview
-The Advanced version of the Cloud-Native Microservices Application showcases your expertise in building modern, scalable, and highly available cloud-native applications. This iteration leverages Kubernetes, a leading container orchestration platform, to manage the deployment and scaling of the microservices-based architecture.
-Technologies Used
-
-Cloud Infrastructure: Amazon Web Services (AWS) for the underlying cloud resources
-Container Platform: Docker for containerization, Kubernetes for orchestration
-Programming Language: TypeScript
-Backend Development: Node.js, custom application code
-Infrastructure as Code: Kubernetes YAML configurations
-Package Management: npm, Yarn
-
-Key Features
-
-Microservices Architecture: The application is designed using a microservices approach, with separate service components for different functionalities (e.g., init-service, orchestrator-simple, runner).
-Containerization and Kubernetes: The application is packaged as Docker containers and deployed using Kubernetes, enabling scalability, high availability, and easy management of the cloud infrastructure.
-Infrastructure as Code with Kubernetes: The project utilizes YAML configuration files to define and manage the Kubernetes resources, demonstrating your skills in infrastructure as code practices.
-TypeScript Codebase: Similar to the Medium version, the Advanced version is written in TypeScript, leveraging its type safety and tooling benefits.
-Best Practices: The project follows industry-standard best practices for cloud-native development, such as using health checks, readiness and liveness probes, and other Kubernetes-specific configurations to ensure the application's reliability and maintainability.
-
-Deployment and Setup
-To deploy and run the Advanced version of the Cloud-Native Microservices Application, you will need to:
-
-Set up the necessary AWS resources and Kubernetes cluster.
-Configure the Kubernetes manifests and apply them to the cluster.
-Install the required dependencies using npm or Yarn.
-Build and package the application Docker images.
-Deploy the containerized application to the Kubernetes cluster.
-Monitor and manage the application's lifecycle within the Kubernetes ecosystem.
-
-Comparison of Versions
-The two versions of the Cloud-Native Microservices Application showcase your growth and mastery of cloud-native development practices:
-
-Medium Version: Demonstrates your ability to leverage AWS services to build a scalable, cloud-based application. This version focuses on integrating with AWS offerings and managing the infrastructure programmatically.
-Advanced Version: Exhibits your proficiency in modern cloud-native technologies, including containerization, Kubernetes, and infrastructure as code using Kubernetes manifests. This version follows industry-standard best practices for building highly available, reliable, and maintainable microservices-based applications.
+</body>
+</html>
