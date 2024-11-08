@@ -1,62 +1,73 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Cloud-Native Microservices Application (AWS)</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
-      color: #333;
-      background-color: #f7f9fc;
-    }
+
     h1, h2, h3 {
       color: #005b96;
     }
     .container {
-      width: 85%;
-      max-width: 900px;
-      margin: 20px auto;
-      background: #fff;
-      padding: 20px;
-      border-radius: 8px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    }
-    .overview, .features, .deployment {
-      margin-bottom: 20px;
-    }
-    .section-title {
-      font-size: 24px;
-      margin-bottom: 10px;
-      border-bottom: 2px solid #005b96;
-      padding-bottom: 5px;
-    }
-    .key-features ul, .technologies-used ul {
-      list-style-type: none;
-      padding-left: 0;
-    }
-    .key-features ul li, .technologies-used ul li {
-      margin: 10px 0;
-      padding-left: 20px;
-      position: relative;
-    }
-    .key-features ul li::before, .technologies-used ul li::before {
-      content: "•";
-      color: #005b96;
-      font-weight: bold;
-      position: absolute;
-      left: 0;
-    }
-    code {
-      background-color: #f3f3f3;
-      padding: 4px;
-      border-radius: 4px;
-      font-size: 14px;
-      color: #c7254e;
-    }
-  </style>
-</head>
+# Cloud-Native Microservices Application (AWS)
+
+## Overview
+The **Cloud-Native Microservices Application (AWS)** demonstrates proficiency in building scalable, cloud-native applications using Amazon Web Services (AWS) as the underlying infrastructure.
+
+## Technologies Used
+- **Cloud Infrastructure**: Amazon Web Services (AWS), including EC2, Lambda, S3, etc.
+- **Programming Language**: TypeScript
+- **Backend Development**: Node.js with custom AWS-specific modules (e.g., `aws.ts`, `index.ts`, `pty.ts`)
+- **Infrastructure as Code**: AWS-specific configurations, potentially using CloudFormation or Terraform
+- **Package Management**: npm, Yarn
+
+## Key Features
+- **AWS Integration**: Leverages AWS services for a robust and scalable cloud infrastructure.
+- **TypeScript Codebase**: Entirely written in TypeScript, benefiting from static typing and rich tooling.
+- **Custom Backend Logic**: Includes TypeScript files implementing business logic and AWS service interactions.
+- **Infrastructure as Code**: Defines and manages cloud infrastructure programmatically.
+
+## Deployment and Setup
+To deploy and run the **Cloud-Native Microservices Application (AWS)**:
+
+1. Set up the necessary AWS resources and configurations.
+2. Install dependencies using `npm` or `Yarn`.
+3. Build and package the application for deployment.
+4. Manage the application's lifecycle, including scaling, monitoring, and maintenance within the AWS ecosystem.
+
+---
+
+# Cloud-Native Microservices Application (AWS + Kubernetes + Docker)
+
+## Overview
+The **Cloud-Native Microservices Application (AWS + Kubernetes + Docker)** is an advanced version that leverages Kubernetes to manage deployment and scaling, showcasing expertise in modern, scalable cloud-native applications.
+
+## Technologies Used
+- **Cloud Infrastructure**: Amazon Web Services (AWS)
+- **Container Platform**: Docker for containerization, Kubernetes for orchestration
+- **Programming Language**: TypeScript
+- **Backend Development**: Node.js with custom application code
+- **Infrastructure as Code**: Kubernetes YAML configurations
+- **Package Management**: npm, Yarn
+
+## Key Features
+- **Microservices Architecture**: Designed with separate services (e.g., `init-service`, `orchestrator-simple`, `runner`).
+- **Containerization and Kubernetes**: Dockerized application deployed with Kubernetes for high availability and scalability.
+- **Infrastructure as Code**: Managed with Kubernetes manifests for streamlined infrastructure configuration.
+- **TypeScript Codebase**: Written in TypeScript, benefiting from type safety.
+- **Best Practices**: Follows cloud-native best practices like health checks, liveness, and readiness probes.
+
+## Deployment and Setup
+To deploy and run the **Cloud-Native Microservices Application (AWS + Kubernetes + Docker)**:
+
+1. Set up the necessary AWS resources and Kubernetes cluster.
+2. Configure the Kubernetes manifests and apply them to the cluster.
+3. Install dependencies using `npm` or `Yarn`.
+4. Build and deploy Docker images to the Kubernetes cluster.
+5. Monitor and manage the application within Kubernetes.
+
+---
+
+## Comparison of Versions
+The two versions showcase your growth in cloud-native development:
+
+- **Cloud-Native Microservices Application (AWS)**: Demonstrates integration with AWS services to build a scalable, cloud-based application.
+- **Cloud-Native Microservices Application (AWS + Kubernetes + Docker)**: Highlights expertise in containerization, Kubernetes, and infrastructure as code with Kubernetes manifests, following industry-standard best practices.
+
 <body>
 
 <div class="container">
